@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Punto de Venta para Pymes | Kosmos Digital</title>
+    <meta name="description"
+        content="Sistema de ventas para pymes. Controla inventario, emite boleta electrónica y factura electrónica. Soporte humano directo. Prueba gratis.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- TOPBAR (Ayuda & Contacto) -->
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <a href="tel:+56912345678">
+                <i data-lucide="phone" style="width:14px;height:14px;"></i> +56 9 1234 5678
+            </a>
+            <a href="#ayuda">
+                <i data-lucide="help-circle" style="width:14px;height:14px;"></i> Centro de Ayuda
+            </a>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="container nav-inner">
+            <a href="/" class="nav-logo" style="gap: 12px;">
+                <img src="img/kosmos_logo.png" alt="Logo Kosmos" style="height: 38px; width: auto;">
+                <span
+                    style="color: #fff; font-family: var(--font-cuerpo); font-size: 24px; font-weight: 700; letter-spacing: -0.5px;">Kosmos
+                    Digital</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#funcionalidades">¿Qué ofrecemos?</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#login" class="login-link">
+                    <i data-lucide="user" style="width:18px;height:18px;"></i> Iniciar Sesión
+                </a>
+                <a href="#prueba-gratis" class="btn btn-primary">
+                    Suscríbete Ahora
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <h1 class="hero-title">Control de inventario total y ventas ultra rápidas.</h1>
+                <p class="hero-sub">Lleva tu negocio al siguiente nivel. Diseñado para la realidad diaria
+                    de tu negocio, con personas reales listas para ayudarte en cada paso.</p>
+
+                <div class="hero-actions">
+                    <a href="#contratar" class="btn btn-primary btn-lg">
+                        Contrata aquí
+                    </a>
+                    <a href="#video" class="btn btn-video btn-lg">
+                        <i data-lucide="play-circle" style="width:20px;height:20px;"></i> Ver video
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+                <img src="https://placehold.co/1200x800/1B2A3F/FFFFFF?text=Mockup+POS+Kosmos+Digital"
+                    alt="Interfaz de Kosmos Digital POS">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- BENEFICIOS (ZIG-ZAG) -->
+    <section class="benefits" id="funcionalidades">
+        <div class="container">
+            <h2 class="section-title">¿Qué ganas al usar Kosmos?</h2>
+            <p class="section-subtitle">Mejora el control de tu negocio con una plataforma intuitiva y completa.</p>
+
+            <!-- Benefit 1 -->
+            <div class="benefit-row">
+                <div class="benefit-content">
+                    <h3 class="benefit-title">Control de inventario en tiempo real</h3>
+                    <p class="benefit-desc">Mantén tu inventario actualizado minuto a minuto en todas tus sucursales.
+                        Cada venta descuenta stock automáticamente y cada ingreso de mercadería se registra al instante.
+                    </p>
+                    <a href="#mas-info" class="btn btn-outline">Saber más sobre Inventario</a>
+                </div>
+                <div class="benefit-visual">
+                    <img src="https://placehold.co/800x600/F8FAFC/1B2A3F?text=App+Inventario"
+                        alt="Control de Inventario">
+                </div>
+            </div>
+
+            <!-- Benefit 2 -->
+            <div class="benefit-row reverse">
+                <div class="benefit-content">
+                    <h3 class="benefit-title">Punto de venta rápido y sin trabas</h3>
+                    <p class="benefit-desc">Vende en tu tienda física a máxima velocidad. Interfaz limpia pensada para
+                        cajeros, búsqueda rápida por código de barras y múltiples métodos de pago integrados.</p>
+                    <a href="#mas-info" class="btn btn-outline">Saber más sobre POS</a>
+                </div>
+                <div class="benefit-visual">
+                    <img src="https://placehold.co/800x600/F8FAFC/195FAD?text=Terminal+POS" alt="Punto de Venta">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="testimonials" id="clientes">
+        <div class="container">
+            <h2 class="section-title">Negocios que confían en Kosmos</h2>
+            <p class="section-subtitle">Descubre lo que nuestro sistema puede hacer por tu tranquilidad.</p>
+
+            <div class="test-grid">
+                <!-- Testimonial 1 -->
+                <div class="test-card">
+                    <p class="test-quote">"Lo que me gusta de usar Kosmos, es que es una plataforma amigable y muy fácil
+                        de enseñar a los cajeros nuevos."</p>
+                    <div class="test-author">
+                        <div class="test-avatar">MP</div>
+                        <div>
+                            <div class="test-name">Punto Vital</div>
+                            <div class="test-company">Paillaco, Chile</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="test-card">
+                    <p class="test-quote">"Nos permite saber cuánto vendimos exacto en el día y cuál fue nuestro margen.
+                        Ya no perdemos stock."</p>
+                    <div class="test-author">
+                        <div class="test-avatar">FT</div>
+                        <div>
+                            <div class="test-name">Cafeteria La Cumbre</div>
+                            <div class="test-company">Paillaco, Chile</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="test-card">
+                    <p class="test-quote">"El soporte humano es increíble. Siempre que tengo una duda con una factura,
+                        me responden en minutos y no hablo con robots."</p>
+                    <div class="test-author">
+                        <div class="test-avatar">BB</div>
+                        <div>
+                            <div class="test-name">Almacen Los Heroes</div>
+                            <div class="test-company">Paillaco, Chile</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>Empieza a ordenar tu negocio hoy</h2>
+            <p>Únete a los miles de negocios que ya dejaron los cuadernos en el pasado.</p>
+            <a href="#prueba-gratis" class="btn btn-primary btn-lg">
+                ¡Suscríbete a Kosmos Ahora!
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="footer-logo"
+                        style="gap: 12px; font-family: var(--font-cuerpo); font-size: 24px; font-weight: 700; letter-spacing: -0.5px;">
+                        <img src="img/kosmos_logo.png" alt="Logo Kosmos" style="height: 42px; width: auto;">
+                        <span style="color: #fff;">Kosmos Digital</span>
+                    </a>
+                    <p class="footer-desc">El ecosistema de ventas, inventario y facturación diseñado para hacer crecer
+                        a las pymes.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Producto</h4>
+                    <ul>
+                        <li><a href="#punto-venta">Punto de Venta</a></li>
+                        <li><a href="#inventario">Control de Inventario</a></li>
+                        <li><a href="#boletas">Boleta Electrónica</a></li>
+                        <li><a href="#precios">Precios</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#ayuda">Centro de Ayuda</a></li>
+                        <li><a href="#api">API para Desarrolladores</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="tel:+56912345678">+56 9 1234 5678</a></li>
+                        <li><a href="mailto:hola@kosmosdigital.cl">hola@kosmosdigital.cl</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kosmos Digital. Todos los derechos reservados.</p>
+                <div style="display:flex; gap:16px;">
+                    <a href="#terminos">Términos y Condiciones</a>
+                    <a href="#privacidad">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
